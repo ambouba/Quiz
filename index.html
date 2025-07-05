@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css3.css">
+    <script src="java.js" ></script>
+</head>
+<body onload="init()" >
+    <h1>Quick Quiz !!</h1>
+    <h1 id="s" >SCORE : <span id="tt" >0</span></h1>
+        <fieldset>
+            <h2>What is the capital of Japan?</h2>
+            <button class="e1"  onclick="en1('re1','tt','e1','0')" >Seoul</button><br>
+            <button class="e1" onclick="en1('re1','tt','e1','0')"  >Beijing</button><br>
+            <button id="re1" onclick="en1('re1','tt','e1','1')" >Tokyo</button><br>
+            <button class="e1" onclick="en1('re1','tt','e1','0')"  >Bangkok</button>
+        </fieldset>
+        <fieldset>
+            <h2>Which planet is known as the Red Planet?</h2>
+            <button class="e2" onclick="en1('re2','tt','e2','0')" >Venus</button><br>
+            <button class="e2" onclick="en1('re2','tt','e2','0')" >Earth</button><br>
+            <button id="re2" onclick="en1('re2','tt','e2','1')"  >Mars</button><br>
+            <button class="e2" onclick="en1('re2','tt','e2','0')" >Jupiter</button>
+        </fieldset>
+        <fieldset>
+            <h2>Who wrote <em>Romeo and Juliet</em>?</h2>
+            <button class="e3" onclick="en1('re3','tt','e3','0')" >Charles Dickens</button><br>
+            <button id="re3" onclick="en1('re3','tt','e3','1')" >William Shakespeare</button><br>
+            <button class="e3" onclick="en1('re3','tt','e3','0')" >Mark Twain</button><br>
+            <button class="e3" onclick="en1('re3','tt','e3','0')" >Jane Austen</button>
+        </fieldset>
+        <fieldset>
+            <h2>What is the largest ocean on Earth?</h2>
+            <button class="e4" onclick="en1('re4','tt','e4','0')">Atlantic Ocean</button><br>
+            <button class="e4" onclick="en1('re4','tt','e4','0')">Indian Ocean</button><br>
+            <button class="e4" onclick="en1('re4','tt','e4','0')">Arctic Ocean</button><br>
+            <button id="re4" onclick="en1('re4','tt','e4','1')">Pacific Ocean</button>
+        </fieldset>
+        <fieldset>
+            <h2>Which language is used to style web pages?</h2>
+            <button class="e5" onclick="en1('re5','tt','e5','0')">HTML</button><br>
+            <button class="e5" onclick="en1('re5','tt','e5','0')">Python</button><br>
+            <button class="e5" onclick="en1('re5','tt','e5','0')">Java</button><br>
+            <button id="re5" onclick="en1('re5','tt','e5','1')">CSS</button>
+        </fieldset>
+    <button id="n" onclick="load()" >Try Again</button>
+</body>
+</html>
